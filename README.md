@@ -1,7 +1,7 @@
 # Frequency Reuse Game
 A simple game developed using Tkinter in Python for understanding cellular frequency reuse to find co-channel cells in a given cellular system.
 
-Enter non-negative values for `i` and `j`, then select any cell as a starting point. Once selected the goal to select all immediate co-channel cells for the given cell where the given group of channels can be used again. `N`, calculated using i and j, gives us the number of cells in a cluster. The minimum adjacent set cells which each use different frequencies is called a cluster. The value of `N` is a function of how much interference a mobile or base station can tolerate while maintaining a sufficient quality of communications.
+Enter non-negative values for `i` and `j`, then select any cell as a starting point. Once selected the goal to select all immediate co-channel cells for the given cell where the given group of channels can be used again. `N`, calculated using `i` and `j`, gives us the number of cells in a cluster. The minimum adjacent set cells which each use different frequencies is called a cluster. The value of `N` is a function of how much interference a mobile or base station can tolerate while maintaining a sufficient quality of communications.
 
 The value N is calculated by: `N = i^2 + i*j + j^2`
 
